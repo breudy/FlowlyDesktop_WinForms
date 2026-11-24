@@ -1,0 +1,9 @@
+FLOWLY DESKTOP (WinForms, .NET Framework 4.7.2)
+
+1) Abrir FlowlyDesktop.sln en Visual Studio 2022. Si pide restaurar paquetes NuGet, aceptar (System.Text.Json).
+2) Poner la URL de la API en FlowlyDesktop/Models/Api.cs -> URL_API (ahora "https://localhost:7189/").
+3) Arrancar primero la API y luego la app (F5). Login: administrador (ej. elena.ruiz@flowly.local).
+
+Pantallas: Login, Proyectos (dashboard, buscar, filtrar, crear/editar/eliminar), Tareas (subtareas,
+asignaciones con horas, dependencias), Usuarios, Equipos (miembros), Roles, Informes (resumen, costes, criticas).
+Las pantallas se montan por codigo (sin disenador), por eso cada clase lleva el comentario de "informacion externa".
